@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/.gitattributes" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitattributes",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -607,7 +615,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 666744380.47007096,
-    "displayValue" : "Llamas_project-main",
+    "displayValue" : "Llama-Project-official",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_green",
     "iconImageWasSetByUser" : 0
