@@ -887,6 +887,9 @@ footer > div #subcribe button:hover {
 #personality > div #p-images .carousel #p-6 {
   background-image: url("../img/personality/llama5.jpg");
 }
+#personality > div #fancybox__caption_1_0 {
+  font-size: 3rem;
+}
 
 #stickout {
   display: grid;
