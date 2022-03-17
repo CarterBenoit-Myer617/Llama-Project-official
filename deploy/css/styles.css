@@ -886,22 +886,6 @@ footer > div #subcribe button:hover {
 #personality > div #p-images .carousel #p-6 {
   background-image: url("../img/personality/llama5.jpg");
 }
-#personality > div #thumbCarousel .carousel__slide {
-  opacity: 0.5;
-  padding: 0;
-  margin: 0.25rem;
-  width: 96px;
-  height: 64px;
-}
-#personality > div #thumbCarousel .carousel__slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
-}
-#personality > div #thumbCarousel .carousel__slide.is-nav-selected {
-  opacity: 1;
-}
 
 #stickout {
   display: grid;
