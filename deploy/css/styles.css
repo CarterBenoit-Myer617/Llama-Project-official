@@ -455,6 +455,7 @@ ul li {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
   position: fixed;
+  z-index: 10000;
 }
 #header > div {
   display: grid;
