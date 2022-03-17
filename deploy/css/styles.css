@@ -1415,3 +1415,29 @@ footer > div #subcribe button:hover {
     margin: 0 50px 0px 50px;
   }
 }
+
+#thankyoupage {
+  background-color: #ABCEF4;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  align-content: center;
+}
+#thankyoupage #message {
+  padding-top: 40vh;
+  width: 60vw;
+  text-align: center;
+  margin-left: 20%;
+}
+#thankyoupage #message h1 {
+  color: #5A433C;
+  font-size: 4rem;
+}
+#thankyoupage #message h2 {
+  color: #FFF5EB;
+  font-weight: 100;
+  width: 40vw;
+  margin-left: 16%;
+  margin-top: 20px;
+  line-height: 1.4;
+}
