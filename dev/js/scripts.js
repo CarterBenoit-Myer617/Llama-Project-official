@@ -46,7 +46,19 @@ ScrollTrigger.defaults({
     markers:true
 })
 
+function sherringfadeup() {
+  const tl = gsap.timeline()
+gsap.set("#stickout-image", {alpha:0,  y:400})
+tl.to("#stickout-image", {alpha:1, y:0, scrollTrigger:{trigger: "#stickout-content h2", scrub:true}})
+}
+ScrollTrigger.defaults({
+    toggleActions: "restart pause resume none",
+    markers:true
+})
+
+
 
 mainTL.add(fadein())
 .add(fader())
+.add(sherringfadeup())
 .add(faderright());
