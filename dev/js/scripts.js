@@ -1,8 +1,9 @@
-// import {Carousel} from "@fancyapps/ui";
+import {Carousel} from "@fancyapps/ui";
+import {Fancybox} from "@fancyapps/ui";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-import { Carousel } from "@fancyapps/ui";
+import { Fancybox,Carousel } from "@fancyapps/ui";
 const mainTL = gsap.timeline();
 
 window.addEventListener('load', function(){
